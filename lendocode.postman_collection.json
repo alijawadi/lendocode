@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "229fa69b-1c3e-45a6-9b7e-12c153f0b142",
+		"name": "lendocode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4312873"
+	},
+	"item": [
+		{
+			"name": "Orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "0.0.0.0/api/backoffice/orders?status=1",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"path": [
+						"api",
+						"backoffice",
+						"orders"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "1"
+						},
+						{
+							"key": "amount_min",
+							"value": "999",
+							"disabled": true
+						},
+						{
+							"key": "amount_max",
+							"value": "9999999",
+							"disabled": true
+						},
+						{
+							"key": "customer_national_code",
+							"value": "469854357",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
